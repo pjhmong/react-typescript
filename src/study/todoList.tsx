@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 import { TodoItem } from './TodoItem';
 
 // 타입을 인터페이스로 선언
-interface todoItem{
+interface todoItem {
     item:string
 }
 
@@ -31,7 +31,6 @@ export function TodoList() {
         todoItems: [todoList],
     })
 
-
     const onSubmit = (e:React.FormEvent<HTMLFormElement>):void => {
         e.preventDefault() // 페이지 전환 막기
         setTodoList({
@@ -40,6 +39,13 @@ export function TodoList() {
             isDelete: false,
         })
     }
+    // <a href="#" onClick={handleClick}>
+    //     Click me
+    // </a>
+    // function handleClick(e) {
+    //     e.preventDefault();
+    //     console.log('The link was clicked.');
+    // }
 
     useEffect(() => {
         setTodoItem({// input 창 초기화
@@ -51,12 +57,12 @@ export function TodoList() {
         })
     }, [todoList])
 
-    useEffect(() => {
-        //console.log('todoData 변경 :: ', todoData )
-    }, [todoData])
+    // useEffect(() => {
+    //     //console.log('todoData 변경 :: ', todoData )
+    // }, [todoData])
 
     const handleInput = (e:React.ChangeEvent<HTMLInputElement>) => {
-        const {name, value} = e.target
+        const {value} = e.target
         setTodoItem({
             item: value
         })
@@ -64,12 +70,12 @@ export function TodoList() {
 
     const onDelete = (idx: number) => {
         let temp2:Array<ItodoItems> = []
-        const deleteTodoList = todoData.todoItems.map(
+        todoData.todoItems.map(
             data => {
                 let temp1: ItodoItems = {
                     idx: data.idx,
                     item: data.item,
-                    isDelete: data.idx === idx ? true : false
+                    isDelete: data.idx === idx
                 }
                 if(temp2.length < 1){
                     temp2 = [temp1]
