@@ -1,6 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import './App.css';
 import styled, { createGlobalStyle } from 'styled-components';
+import axios from "axios";
 
 const GlobalStyle = createGlobalStyle`
   body {
@@ -44,6 +45,11 @@ const Body = styled.div`
 `;
 
 function App() {
+    useEffect(() => {
+        axios
+            .get("https://jsonplaceholder.typicode.com/posts")
+            .then(response => console.log(response));
+    }, []);
     return (
         <Container>
             <GlobalStyle />
