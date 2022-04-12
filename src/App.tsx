@@ -44,6 +44,33 @@ const Body = styled.div`
   border-radius: 20px;
 `;
 
+const legacyApiCallSample = () => {
+    axios.get('https://test.com/api/v1')
+        .then((response) => {
+            const userId = response.data.userId;
+            axios.get('https://test2.com/api/v2/' + userId)
+                .then((response) => {
+                    console.log("Response >>", response.data)
+                })
+                .catch(() => {
+                })
+        })
+        .catch((err) => {
+            console.log("Error >>", err);
+        })
+}
+
+const asyncApiCallSample = async () => {
+    try {
+        const response = await axios.get('https://test.com/api/v1')
+        const userId = response.data.userId;
+        const response2 = await axios.get('https://test2.com/api/v2/' + userId);
+        console.log("response >>", response2.data)
+    } catch(err) {
+        console.log("Error >>", err);
+    }
+}
+
 function App() {
     const [posts, setPosts] = useState([{ title: '', body: '' }]);
     const legacyApiCall = () => {
