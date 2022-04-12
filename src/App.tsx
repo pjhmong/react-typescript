@@ -2,6 +2,8 @@ import React, {useEffect, useState} from 'react';
 import './App.css';
 import styled, { createGlobalStyle } from 'styled-components';
 import axios from "axios";
+// import { throws } from 'assert';
+import * as _ from 'lodash';
 
 const GlobalStyle = createGlobalStyle`
   body {
@@ -71,7 +73,14 @@ const legacyApiCallSample = () => {
 
 const asyncApiCallSample = async () => {
     try {
-        const response = await axios.get('https://test.com/api/v1')
+        const response = await axios.get('https://test.com/api/v1');
+        // const response = await axios.get('https://test.com/api/v1').catch((e)=> throws(e));
+        // const userId = "";
+        // if(response != undefined){
+        // }else{
+        //     const userId = "";
+        // }
+        
         const userId = response.data.userId;
         const response2 = await axios.get('https://test2.com/api/v2/' + userId);
         console.log("response >>", response2.data)
@@ -87,6 +96,7 @@ function App() {
             .get("https://jsonplaceholder.typicode.com/posts")
             .then(({ data }) => setPosts(data)); // const { data } = res;
     };
+
     const asyncApiCall = async () => {
         const res = await axios.get("https://jsonplaceholder.typicode.com/posts");
         const setVisibleRest = res.data.map((post: any) => {
@@ -97,7 +107,9 @@ function App() {
         })
         setPosts(setVisibleRest);
     };
+
     console.log(posts);
+
     useEffect(() => {
         // legacyApiCall();
         asyncApiCall();
