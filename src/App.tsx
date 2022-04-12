@@ -81,7 +81,7 @@ const asyncApiCallSample = async () => {
 }
 
 function App() {
-    const [posts, setPosts] = useState([{ title: '', body: '', id: 0, userId: 0 }]);
+    const [posts, setPosts] = useState([{ title: '', body: '', id: 0, userId: 0, isVisible: true }]);
     const legacyApiCall = () => {
         axios
             .get("https://jsonplaceholder.typicode.com/posts")
@@ -89,22 +89,43 @@ function App() {
     };
     const asyncApiCall = async () => {
         const res = await axios.get("https://jsonplaceholder.typicode.com/posts");
-        setPosts(res.data);
+        const setVisibleRest = res.data.map((post: any) => {
+            return {
+                ...post,
+                isVisible: true,
+            }
+        })
+        setPosts(setVisibleRest);
     };
+    console.log(posts);
     useEffect(() => {
         // legacyApiCall();
         asyncApiCall();
     }, []);
+    const delPost = (postId: any) => {
+        const setNewPosts = posts.map((post) => {
+            if (post.id == postId) {
+                return {
+                    ...post,
+                    isVisible: false,
+                }
+            }
+            return post;
+        })
+        setPosts(setNewPosts);
+    }
     return (
         <Container>
             <GlobalStyle />
-            {posts.map((post) => (
-                <Post key={post.id}>
-                    <Title>{post.title}</Title>
-                    <Body>{post.body}</Body>
-                    <Button onClick={() => console.log('hello')}>delete</Button>
-                </Post>
-            ))}
+            {posts.map((post) => {
+                return post.isVisible ? (
+                    <Post key={post.id}>
+                        <Title>{post.title}</Title>
+                        <Body>{post.body}</Body>
+                        <Button onClick={() => delPost(post.id)}>delete</Button>
+                    </Post>
+                ) : null;
+            })}
         </Container>
     );
 }
