@@ -46,10 +46,13 @@ const Body = styled.div`
 
 function App() {
     const [posts, setPosts] = useState([{ title: '', body: '' }]);
-    useEffect(() => {
+    const legacyApiCall = () => {
         axios
             .get("https://jsonplaceholder.typicode.com/posts")
             .then(({ data }) => setPosts(data));
+    };
+    useEffect(() => {
+        legacyApiCall();
     }, []);
     return (
         <Container>
