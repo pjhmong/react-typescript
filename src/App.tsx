@@ -49,10 +49,15 @@ function App() {
     const legacyApiCall = () => {
         axios
             .get("https://jsonplaceholder.typicode.com/posts")
-            .then(({ data }) => setPosts(data));
+            .then(({ data }) => setPosts(data)); // const { data } = res;
+    };
+    const asyncApiCall = async () => {
+        const res = await axios.get("https://jsonplaceholder.typicode.com/posts");
+        setPosts(res.data);
     };
     useEffect(() => {
-        legacyApiCall();
+        // legacyApiCall();
+        asyncApiCall();
     }, []);
     return (
         <Container>
