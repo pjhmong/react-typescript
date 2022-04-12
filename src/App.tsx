@@ -39,9 +39,18 @@ const Title = styled.div`
 `;
 
 const Body = styled.div`
-  height: 80%;
+  height: 40%;
   padding: 11px;
   border-radius: 20px;
+`;
+
+const Button = styled.div`
+  height: 20%;
+  padding: 11px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid black;
 `;
 
 const legacyApiCallSample = () => {
@@ -72,7 +81,7 @@ const asyncApiCallSample = async () => {
 }
 
 function App() {
-    const [posts, setPosts] = useState([{ title: '', body: '' }]);
+    const [posts, setPosts] = useState([{ title: '', body: '', id: 0, userId: 0 }]);
     const legacyApiCall = () => {
         axios
             .get("https://jsonplaceholder.typicode.com/posts")
@@ -89,10 +98,11 @@ function App() {
     return (
         <Container>
             <GlobalStyle />
-            {posts.map((post, index) => (
-                <Post key={index}>
+            {posts.map((post) => (
+                <Post key={post.id}>
                     <Title>{post.title}</Title>
                     <Body>{post.body}</Body>
+                    <Button onClick={() => console.log('hello')}>delete</Button>
                 </Post>
             ))}
         </Container>
