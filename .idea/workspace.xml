@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f787c7a1-725b-40fa-b6fd-d976377b5b36" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/Readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/css/variables-blue.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/css/variables-green.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/css/variables-orange.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/css/variables-pink.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/css/variables-purple.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/css/variables-red.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/css/variables.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/img/about-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/img/about.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/img/apple-touch-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/img/blog/blog-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/img/blog/blog-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/img/blog/blog-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/img/blog/blog-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/img/blog/blog-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/img/blog/blog-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/img/blog/blog-author.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/img/blog/blog-inside-post.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/img/blog/blog-recent-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/img/blog/blog-recent-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/img/blog/blog-recent-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/img/blog/blog-recent-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/img/blog/blog-recent-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/img/blog/comments-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/img/blog/comments-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/img/blog/comments-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/img/blog/comments-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/img/blog/comments-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/img/blog/comments-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/img/clients/client-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/img/clients/client-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/img/clients/client-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/img/clients/client-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/img/clients/client-5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/img/clients/client-6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/img/clients/client-7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/img/clients/client-8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/img/cta.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/img/faq.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/img/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/img/features-1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/img/features-2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/img/features-3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/img/features-4.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/img/features-5.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/img/features-6.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/img/hero-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/img/hero-carousel/hero-carousel-1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/img/hero-carousel/hero-carousel-2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/img/hero-carousel/hero-carousel-3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/img/hero-fullscreen-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/img/onfocus-content-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/img/onfocus-video-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/img/portfolio/app-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/img/portfolio/app-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/img/portfolio/app-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/img/portfolio/books-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/img/portfolio/books-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/img/portfolio/books-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/img/portfolio/branding-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/img/portfolio/branding-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/img/portfolio/branding-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/img/portfolio/product-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/img/portfolio/product-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/img/portfolio/product-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/img/pricing-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/img/services-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/img/services-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/img/services-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/img/services-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/img/services-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/img/services-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/img/team/team-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/img/team/team-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/img/team/team-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/img/testimonials-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/img/testimonials/testimonials-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/img/testimonials/testimonials-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/img/testimonials/testimonials-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/img/testimonials/testimonials-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/img/testimonials/testimonials-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/vendor/aos/aos.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/vendor/aos/aos.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/vendor/bootstrap-icons/bootstrap-icons.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/vendor/bootstrap-icons/bootstrap-icons.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/vendor/bootstrap-icons/fonts/bootstrap-icons.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/vendor/bootstrap-icons/fonts/bootstrap-icons.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/vendor/bootstrap-icons/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/vendor/bootstrap/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/vendor/bootstrap/css/bootstrap-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/vendor/bootstrap/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/vendor/bootstrap/css/bootstrap-grid.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/vendor/bootstrap/css/bootstrap-grid.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/vendor/bootstrap/css/bootstrap-grid.rtl.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/vendor/bootstrap/css/bootstrap-grid.rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/vendor/bootstrap/css/bootstrap-grid.rtl.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/vendor/bootstrap/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/vendor/bootstrap/css/bootstrap-reboot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/vendor/bootstrap/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/vendor/bootstrap/css/bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/vendor/bootstrap/css/bootstrap-reboot.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/vendor/bootstrap/css/bootstrap-reboot.rtl.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/vendor/bootstrap/css/bootstrap-reboot.rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/vendor/bootstrap/css/bootstrap-reboot.rtl.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/vendor/bootstrap/css/bootstrap-utilities.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/vendor/bootstrap/css/bootstrap-utilities.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/vendor/bootstrap/css/bootstrap-utilities.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/vendor/bootstrap/css/bootstrap-utilities.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/vendor/bootstrap/css/bootstrap-utilities.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/vendor/bootstrap/css/bootstrap-utilities.rtl.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/vendor/bootstrap/css/bootstrap-utilities.rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/vendor/bootstrap/css/bootstrap-utilities.rtl.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/vendor/bootstrap/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/vendor/bootstrap/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/vendor/bootstrap/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/vendor/bootstrap/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/vendor/bootstrap/css/bootstrap.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/vendor/bootstrap/css/bootstrap.rtl.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/vendor/bootstrap/css/bootstrap.rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/vendor/bootstrap/css/bootstrap.rtl.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/vendor/bootstrap/js/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/vendor/bootstrap/js/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/vendor/bootstrap/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/vendor/bootstrap/js/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/vendor/bootstrap/js/bootstrap.esm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/vendor/bootstrap/js/bootstrap.esm.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/vendor/bootstrap/js/bootstrap.esm.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/vendor/bootstrap/js/bootstrap.esm.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/vendor/bootstrap/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/vendor/bootstrap/js/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/vendor/bootstrap/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/vendor/bootstrap/js/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/vendor/glightbox/css/glightbox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/vendor/glightbox/css/glightbox.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/vendor/glightbox/js/glightbox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/vendor/glightbox/js/glightbox.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/vendor/isotope-layout/isotope.pkgd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/vendor/isotope-layout/isotope.pkgd.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/vendor/php-email-form/validate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/vendor/swiper/swiper-bundle.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/assets/vendor/swiper/swiper-bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/blog-details.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/blog.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/changelog.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/forms/Readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/forms/contact.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/index-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/index-3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/index-4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/inner-page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeroBiz/portfolio-details.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/react-app-env.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/setupTests.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="/usr/local/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="27NLNIROqIDlIv7kR6nTfuGmNEo" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../inno-project/src/secloudit-ui" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/study" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f787c7a1-725b-40fa-b6fd-d976377b5b36" name="Default Changelist" comment="" />
+      <created>1649155555933</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1649155555933</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/post" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/post" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/master" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="712" y="345" width="553" height="414" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1649749597690">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="712" y="345" width="553" height="414" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1649749597690" />
+    <state x="726" y="299" width="524" height="507" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1649156286889">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="726" y="299" width="524" height="507" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1649156286889" />
+    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1649768709254">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1649768709254" />
+    <state x="67" y="306" width="1359" height="774" maximized="true" key="dock-window-1" timestamp="1649927724456">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="67" y="306" width="1359" height="774" maximized="true" key="dock-window-1/67.27.1853.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1649927724456" />
+    <state x="1984" y="206" width="1296" height="778" maximized="true" key="dock-window-1/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1649770993715" />
+    <state x="656" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1649163317695">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="656" y="257" width="672" height="678" key="search.everywhere.popup/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1649163317695" />
+  </component>
+</project>
