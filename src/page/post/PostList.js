@@ -8,39 +8,77 @@ import axios from "axios";
 import * as _ from 'lodash';
 
 
-const PostList = ({number}) => {
-  const [ dataList, setDataList ] = useState([]);
+export const PostList = ({number}) => {
+  const [ dataList, setDataList ] = useState({data: [], nowLoading: true, isLoaded: false});
   const getPostData = async () => {
-      const res = await axios.get("https://jsonplaceholder.typicode.com/users");
-      setDataList(_.get(res, "data"));
+      try {
+          const res = await axios.get("https://asdfasdfasdfajkl");
+          setDataList({data: _.get(res, "data"), nowLoading: false, isLoaded: true });
+      } catch (e) {
+          setDataList({data: [], nowLoading: false, isLoaded: false });
+      }
   };
-
   useEffect(() => {
     getPostData();
-    // setDataList(postList);
-  }, [number])
+  }, [number]);
 
-  return (
-    <>
-      <CommonTable headersName={['ID', 'NAME', 'USER NAME', 'E-MAIL']}>
-        {
-          dataList ? _.map(dataList, (data, idx) => {
-            const { id, name, username, email } = data;
-            return (
-              <CommonTableRow key={idx}>
-                <CommonTableColumn>{ id }</CommonTableColumn>
-                <CommonTableColumn>
-                  <Link to={`/postView/id/${id}/name/${name}`}>{ name }</Link>
-                </CommonTableColumn>
-                <CommonTableColumn>{ username }</CommonTableColumn>
-                <CommonTableColumn>{ email }</CommonTableColumn>
-              </CommonTableRow>
-            )
-          }) : ''
-        }
-      </CommonTable>
-    </>
-  )
+  // useEffect(() => {
+  //     console.log("Now Mount: ", number, " //  ", dataList)
+  //     return () => console.log("now im unmount: ", number, " //  ", dataList);
+  // }, []);
+  // useEffect(() => {
+  //     console.log("Now update: ", number, "  //  ", dataList)
+  // });
+ if (dataList.nowLoading) {
+     return (
+         <>
+            loading Image
+         </>
+     );
+ }
+
+    const visualTags = (
+        <>
+            <CommonTable headersName={['ID', 'NAME', 'USER NAME', 'E-MAIL']}>
+                {_.map(dataList.data, (data, idx) => {
+                    const { id, name, username, email } = data;
+                    return (
+                        <CommonTableRow key={idx}>
+                            <CommonTableColumn>{ id }</CommonTableColumn>
+                            <CommonTableColumn>
+                                <Link to={`/postView/id/${id}/name/${name}`}>{ name }</Link>
+                            </CommonTableColumn>
+                            <CommonTableColumn>{ username }</CommonTableColumn>
+                            <CommonTableColumn>{ email }</CommonTableColumn>
+                        </CommonTableRow>
+                    )
+                })}
+            </CommonTable>
+        </>
+    );
+    console.log(dataList.isLoaded);
+    return dataList.isLoaded ? visualTags : (<>get data fail</>);
+  // return (
+  //   <>
+  //   <CommonTable headersName={['ID', 'NAME', 'USER NAME', 'E-MAIL']}>
+  //       {
+  //         dataList.isLoaded ? _.map(dataList.data, (data, idx) => {
+  //           const { id, name, username, email } = data;
+  //           return (
+  //             <CommonTableRow key={idx}>
+  //               <CommonTableColumn>{ id }</CommonTableColumn>
+  //               <CommonTableColumn>
+  //                 <Link to={`/postView/id/${id}/name/${name}`}>{ name }</Link>
+  //               </CommonTableColumn>
+  //               <CommonTableColumn>{ username }</CommonTableColumn>
+  //               <CommonTableColumn>{ email }</CommonTableColumn>
+  //             </CommonTableRow>
+  //           )
+  //         }) : (<>get data fail</>)
+  //       }
+  //     </CommonTable>
+  //   </>
+  // )
 }
 
-export default PostList;
+// export default PostList;

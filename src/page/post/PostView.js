@@ -6,7 +6,6 @@ import FooterScreen from "../../layout/FooterScreen";
 
 export const PostView = ({ history, location, match }) => {
     const [ data, setData ] = useState({});
-
     const { id, name } = match.params;
     useEffect(() => {
         setData({id, name});
