@@ -4,27 +4,36 @@ import CommonTable from '../../components/table/CommonTable';
 import CommonTableColumn from '../../components/table/CommonTableColumn';
 import CommonTableRow from '../../components/table/CommonTableRow';
 import { postList } from '../../Data';
+import axios from "axios";
+import * as _ from 'lodash';
 
-const PostList = props => {
+
+const PostList = ({number}) => {
   const [ dataList, setDataList ] = useState([]);
+  const getPostData = async () => {
+      const res = await axios.get("https://jsonplaceholder.typicode.com/users");
+      setDataList(_.get(res, "data"));
+  };
 
   useEffect(() => {
-    setDataList(postList);
-  }, [ ])
+    getPostData();
+    // setDataList(postList);
+  }, [number])
 
   return (
     <>
-      <CommonTable headersName={['글번호', '제목', '등록일', '조회수']}>
+      <CommonTable headersName={['ID', 'NAME', 'USER NAME', 'E-MAIL']}>
         {
-          dataList ? dataList.map((item, index) => {
+          dataList ? _.map(dataList, (data, idx) => {
+            const { id, name, username, email } = data;
             return (
-              <CommonTableRow key={index}>
-                <CommonTableColumn>{ item.no }</CommonTableColumn>
+              <CommonTableRow key={idx}>
+                <CommonTableColumn>{ id }</CommonTableColumn>
                 <CommonTableColumn>
-                  <Link to={`/postView/${item.no}`}>{ item.title }</Link>
+                  <Link to={`/postView/id/${id}/name/${name}`}>{ name }</Link>
                 </CommonTableColumn>
-                <CommonTableColumn>{ item.createDate }</CommonTableColumn>
-                <CommonTableColumn>{ item.readCount }</CommonTableColumn>
+                <CommonTableColumn>{ username }</CommonTableColumn>
+                <CommonTableColumn>{ email }</CommonTableColumn>
               </CommonTableRow>
             )
           }) : ''

@@ -6,9 +6,9 @@ import PostMain from "../page/post/PostMain";
 const Posts = () => {
     return (
         <div>
-            <HeaderScreen className="header"></HeaderScreen>
+            <HeaderScreen className="header"/>
             <PostMain/>
-            <FooterScreen className="footer"></FooterScreen>
+            <FooterScreen className="footer"/>
         </div>
     );
 };

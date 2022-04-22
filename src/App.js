@@ -15,7 +15,7 @@ function App() {
           <Route path="/main" component={LayoutScreen}/>
           <Route path="/about" component={About}/>
           <Route path="/posts" component={Posts}/>
-          <Route exact path='/postView/:no' component={PostView} />
+          <Route exact path='/postView/id/:id/name/:name' component={PostView} />
           <Route path="/mypage" component={Mypage}/>
           <Route path="/search" component={Search}/>
       </BrowserRouter>
