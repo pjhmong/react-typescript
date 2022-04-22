@@ -22,6 +22,7 @@ export const PostList = ({number}) => {
     getPostData();
   }, [number]);
 
+  //
   // useEffect(() => {
   //     console.log("Now Mount: ", number, " //  ", dataList)
   //     return () => console.log("now im unmount: ", number, " //  ", dataList);
