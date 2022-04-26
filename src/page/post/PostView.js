@@ -3,6 +3,7 @@ import { getPostByNo } from '../../Data';
 import './Post.css';
 import HeaderScreen from "../../layout/HeaderScreen";
 import FooterScreen from "../../layout/FooterScreen";
+import {Modal} from "./Modal";
 
 export const PostView = ({ history, location, match }) => {
     const [ data, setData ] = useState({});
@@ -10,6 +11,23 @@ export const PostView = ({ history, location, match }) => {
     useEffect(() => {
         setData({id, name});
     }, []);
+    const [modalOpen, setModalOpen] = useState(false);
+
+    const openModal = () => {
+        setModalOpen(true);
+    };
+    const closeModal = () => {
+        setModalOpen(false);
+    };
+    const popup = (
+        <>
+            <Modal open={modalOpen} close={closeModal} header="Modal heading">
+                팝업창입니다. poup up!
+            </Modal>
+        </>
+    );
+
+
     return (
         <>
             <HeaderScreen className="header"/>
@@ -25,9 +43,11 @@ export const PostView = ({ history, location, match }) => {
                         <label>{ data.name }</label>
                     </div>
                 </>
+                {popup}
                 <button className="post-view-go-list-btn" onClick={() => history.goBack()}>목록으로 돌아가기</button>
+                <button className="post-view-go-list-btn" onClick={() => openModal()}>Pop up</button>
             </div>
-            <FooterScreen className="footer"></FooterScreen>
+            <FooterScreen className="footer" />
         </>
     )
 }

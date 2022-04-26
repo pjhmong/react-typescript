@@ -12,7 +12,7 @@ export const PostList = ({number}) => {
   const [ dataList, setDataList ] = useState({data: [], nowLoading: true, isLoaded: false});
   const getPostData = async () => {
       try {
-          const res = await axios.get("https://asdfasdfasdfajkl");
+          const res = await axios.get("https://jsonplaceholder.typicode.com/users");
           setDataList({data: _.get(res, "data"), nowLoading: false, isLoaded: true });
       } catch (e) {
           setDataList({data: [], nowLoading: false, isLoaded: false });
