@@ -1,9 +1,10 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useCallback } from 'react';
 import { getPostByNo } from '../../Data';
 import './Post.css';
 import HeaderScreen from "../../layout/HeaderScreen";
 import FooterScreen from "../../layout/FooterScreen";
 import {Modal} from "./Modal";
+import * as _ from "lodash"
 
 export const PostView = ({ history, location, match }) => {
     const [ data, setData ] = useState({});
@@ -19,19 +20,22 @@ export const PostView = ({ history, location, match }) => {
     const closeModal = () => {
         setModalOpen(false);
     };
-    const popup = (
+    const [testNumber, setTestNumber] = useState(1);
+    const addNumber = () => {
+        setTestNumber(testNumber)
+    }
+    const popup = () => (
         <>
-            <Modal open={modalOpen} close={closeModal} header="Modal heading">
+            <Modal open={modalOpen} close={closeModal} header="Modal heading" addNumber={addNumber}>
                 팝업창입니다. poup up!
             </Modal>
         </>
     );
 
-
     return (
         <>
             <HeaderScreen className="header"/>
-            <h2 align="center">게시글 상세정보</h2>
+            <h2 align="center">{testNumber}</h2>
             <div className="post-view-wrapper">
                 <>
                     <div className="post-view-row">
@@ -43,7 +47,7 @@ export const PostView = ({ history, location, match }) => {
                         <label>{ data.name }</label>
                     </div>
                 </>
-                {popup}
+                {popup()}
                 <button className="post-view-go-list-btn" onClick={() => history.goBack()}>목록으로 돌아가기</button>
                 <button className="post-view-go-list-btn" onClick={() => openModal()}>Pop up</button>
             </div>

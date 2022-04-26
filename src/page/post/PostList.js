@@ -30,22 +30,26 @@ export const PostList = ({number}) => {
   // useEffect(() => {
   //     console.log("Now update: ", number, "  //  ", dataList)
   // });
- if (dataList.nowLoading) {
-     return (
-         <>
-            loading Image
-         </>
-     );
- }
-
+     if (dataList.nowLoading) {
+         return (
+             <>
+                loading Image
+             </>
+         );
+     }
+     const undefinedTest = "here is 2";
+     console.log(undefinedTest ?? "here is 1");
     const visualTags = (
         <>
             <CommonTable headersName={['ID', 'NAME', 'USER NAME', 'E-MAIL']}>
                 {_.map(dataList.data, (data, idx) => {
-                    const { id, name, username, email } = data;
+                    const id = _.get(data, "id");
+                    const name = _.get(data, "name");
+                    const username = _.get(data, "username");
+                    const email = _.get(data, "email");
                     return (
                         <CommonTableRow key={idx}>
-                            <CommonTableColumn>{ id }</CommonTableColumn>
+                            <CommonTableColumn>{ id ?? "None" }</CommonTableColumn>
                             <CommonTableColumn>
                                 <Link to={`/postView/id/${id}/name/${name}`}>{ name }</Link>
                             </CommonTableColumn>
