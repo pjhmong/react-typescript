@@ -9,8 +9,8 @@ class HeaderScreen extends Component  {
             <NavLink exact className="item" activeClassName="active" to="/main">Home</NavLink>
             <NavLink className="item" activeClassName="active" to="/about">소개</NavLink>
             <NavLink className="item" activeClassName="active" to="/posts">Posts</NavLink>
-            <NavLink className="item" activeClassName="active" to="/mypage">Mypage</NavLink>
-            <NavLink className="item" activeClassName="active" to="/search">Search</NavLink>
+            <NavLink className="item" activeClassName="active" to="/mypage">useMemo</NavLink>
+            <NavLink className="item" activeClassName="active" to="/search">useCallback & memo</NavLink>
             <NavLink className="item" activeClassName="active" to="/">Login</NavLink>
         </div>
         );

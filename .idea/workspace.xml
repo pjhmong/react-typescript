@@ -30,6 +30,7 @@
       <list>
         <option value="TypeScript JSX File" />
         <option value="TypeScript File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -47,7 +48,10 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../inno-project/src/secloudit" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
@@ -119,21 +123,21 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="726" y="299" width="524" height="507" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1649156286889" />
-    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1649211748222">
+    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1651025421376">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1649211748222" />
+    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1651025421376" />
     <state x="1920" y="125" width="1427" height="803" maximized="true" key="dock-window-1" timestamp="1650624830642">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="1920" y="125" width="1427" height="803" maximized="true" key="dock-window-1/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1650624830642" />
-    <state x="1920" y="0" width="1427" height="803" maximized="true" key="dock-window-2" timestamp="1650636565384">
+    <state x="1920" y="0" width="1417" height="803" key="dock-window-2" timestamp="1651025423157">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="1920" y="0" width="1427" height="803" maximized="true" key="dock-window-2/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1650636565384" />
-    <state x="656" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1650630127042">
+    <state x="1920" y="0" width="1417" height="803" key="dock-window-2/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1651025423157" />
+    <state x="656" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1650984175209">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="656" y="257" width="672" height="678" key="search.everywhere.popup/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1650630127042" />
+    <state x="656" y="257" width="672" height="678" key="search.everywhere.popup/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1650984175209" />
   </component>
 </project>
